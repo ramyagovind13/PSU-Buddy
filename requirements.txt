@@ -1,0 +1,12 @@
+streamlit
+langchain
+langchain-openai
+langchain_core
+langchain-community
+langchainhub
+openai
+ragas
+tiktoken
+cohere
+faiss_cpu
+unstructured
