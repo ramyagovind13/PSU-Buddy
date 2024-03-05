@@ -82,7 +82,7 @@ if "chat_history" not in st.session_state:
     ]
 
 if "vector_store" not in st.session_state:
-    st.session_state.vector_store = get_vectorstore(website_url)    
+    st.session_state.vector_store = get_vectorstore(urls)    
 
 # user input
 user_query = st.chat_input("Type your message here...")
