@@ -70,7 +70,7 @@ def get_response(user_input):
         "question": user_query
     })
     
-    return response['answer']
+    return response["response"].content
 
 # app config
 st.set_page_config(page_title="PSU Buddy", page_icon="🤖")
