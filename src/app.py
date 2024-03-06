@@ -18,7 +18,10 @@ urls = [
     'https://www.pdx.edu/computer-science/masters-track-courses',
     'https://docs.google.com/spreadsheets/d/1Zzyb9E1zLwQ0TYErZfoW9i2BM83b_PFba6zWmzMELQs/edit#gid=0',
     'https://www.pdx.edu/engineering/academic-programs',
-    'https://www.pdx.edu/gradschool/graduate-candidate-deadlines'
+    'https://www.pdx.edu/gradschool/graduate-candidate-deadlines',
+    'https://www.pdx.edu/student-finance/tuition/graduate',
+    'https://www.pdx.edu/academics/programs/graduate/computer-science',
+    'https://www.pdx.edu/admissions/apply-to-grad-school',
 ]
 
 template = """Answer the question based only on the following context. If you cannot answer the question with the context, please respond with 'I don't know':
