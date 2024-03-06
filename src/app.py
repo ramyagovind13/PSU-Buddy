@@ -39,7 +39,7 @@ def get_vectorstore(url):
                     )
     docs = text_splitter.split_documents(data)
     embeddings = OpenAIEmbeddings(
-                    model="text-embedding-ada-002"
+                    model="text-embedding-3-small"
                     )
     vector_store = FAISS.from_documents(docs, embedding=embeddings)
     return vector_store
