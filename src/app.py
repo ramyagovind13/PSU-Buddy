@@ -78,7 +78,7 @@ st.title("PSU Buddy")
 
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = [
-        AIMessage(content="Hello, I am a bot. How can I help you?"),
+        AIMessage(content="Hello, I am your PSU Buddy. How can I help you?"),
     ]
 
 if "vector_store" not in st.session_state:
